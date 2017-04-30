@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Be Motivate",
+  "description": "This is the better extention for be concentred during your work. Get the success of your exams with Be Motivate. Never Give Up : Work !",
+  "version": "1.0",
+  "author": "WolfM4ster",
+  
+  "browser_action": {
+    "default_icon": {
+      "32": "icon.png"
+    },
+    "default_title": "Be Motivate"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.js","popup.js"]
+    }
+  ]
+}
