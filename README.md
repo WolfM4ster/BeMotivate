@@ -1,7 +1,5 @@
 # BeMotivate
 
-# Project Title
-
 This is a chrome extention to be concentred during your work.
 Get the success of your exams with Be Motivate. Never Give Up : Work !
 
